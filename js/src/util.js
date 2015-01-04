@@ -37,6 +37,12 @@ define(function(){
   }
 
 
+  Util.Vector = function(vectorParams){
+    this._vx = vectorParams.vx;
+    this._vy = vectorParams.vy;
+  }
+
+
   return Util;
 
 });
