@@ -27,13 +27,16 @@ define(function(){
 
   Util.Point.prototype.newPointAfterSpeed = function(vector){
     //adds the x movement and y movement and returns point
-
+    this._x = this._x + vector.vx;
+    this._y = this._y + vector.vy;
 
     return this;
   }
 
   Util.Point.prototype.distanceTo = function(otherPoint){
+    var distance = Math.sqrt(())
 
+    
   }
 
 
